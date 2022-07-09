@@ -33,6 +33,7 @@ function VerPases(props) {
   function calcula(item) {
     calculoDiaTranscurrido(item);
     pasesFaltantes(item);
+    return " "
   }
 
   //calcula dias transcurridos y restantes
